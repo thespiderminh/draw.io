@@ -1,22 +1,97 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="29.1.0">
   <diagram name="Trang-1" id="5XT9ndboUOtNzIZEpKwl">
-    <mxGraphModel dx="1196" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2459" dy="1205" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="v63EH9vQ4W_Pz9Ko_zXj-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;AEROSPIKE_CLIENT_CONNECTIONS_OPENED_OVER_THRESHOLD&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="400" x="140" y="380" as="geometry" />
+          <mxGeometry height="60" width="410" x="-810" y="-20" as="geometry" />
         </mxCell>
-        <object label="" Cause="AER_MIN_CLUSTER_SIZE - Aerospike cluster mất đủ số node cần tối thiểu để hoạt động ổn định, dẫn đến sau đó lượng connection mở đồng loạt, nên vượt ngưỡng" id="v63EH9vQ4W_Pz9Ko_zXj-2">
+        <object label="" Cause="AER_MIN_CLUSTER_SIZE - Aerospike cluster mất đủ số node cần tối thiểu để hoạt động ổn định, dẫn đến sau đó lượng connection mở đồng loạt, nên vượt ngưỡng" Require="clusterName của AEROSPIKE_UNHEALTHY giống với objectInstanceName của AEROSPIKE_CLIENT_CONNECTIONS_OPENED_OVER_THRESHOLD" id="v63EH9vQ4W_Pz9Ko_zXj-2">
           <mxCell edge="1" parent="1" source="v63EH9vQ4W_Pz9Ko_zXj-5" style="endArrow=classicThin;html=1;rounded=0;startArrow=none;startFill=0;endFill=1;" target="v63EH9vQ4W_Pz9Ko_zXj-1">
             <mxGeometry relative="1" as="geometry">
-              <mxPoint x="334" y="260" as="sourcePoint" />
-              <mxPoint x="494" y="260" as="targetPoint" />
+              <mxPoint x="-314" y="10" as="sourcePoint" />
+              <mxPoint x="-154" y="10" as="targetPoint" />
             </mxGeometry>
           </mxCell>
         </object>
+        <mxCell id="OB3D3xZtRhoNLVHTy5Gi-18" edge="1" parent="1" source="v63EH9vQ4W_Pz9Ko_zXj-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="OB3D3xZtRhoNLVHTy5Gi-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="v63EH9vQ4W_Pz9Ko_zXj-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="AEROSPIKE_UNHEALTHY" vertex="1">
-          <mxGeometry height="60" width="160" x="240" y="170" as="geometry" />
+          <mxGeometry height="60" width="160" x="-360" y="-170" as="geometry" />
+        </mxCell>
+        <mxCell id="OB3D3xZtRhoNLVHTy5Gi-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="VNFC_DOWN" vertex="1">
+          <mxGeometry height="60" width="160" x="480" y="-310" as="geometry" />
+        </mxCell>
+        <mxCell id="OB3D3xZtRhoNLVHTy5Gi-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;font-size: 14px; white-space: pre;&quot;&gt;AEROSPIKE_XDR_LAG_OVER_THRESHOLD&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;span style=&quot;font-family: monospace; font-size: 14px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;AEROSPIKE_XDR_RETRY_NO_NODE_OVER_THRESHOLD&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; white-space: pre;&quot;&gt;AEROSPIKE_CLUSTER_SIZE_UNDER_THRESHOLD&lt;/span&gt;&lt;span style=&quot;font-family: monospace; font-size: 14px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="656" x="40" y="-170" as="geometry" />
+        </mxCell>
+        <object label="" Cause="Nếu VNFC dạng AEROCLUSTER bị chết, khiến Node đó không thể gửi/nhận dữ liệu XDR, khiến bị dồn lại" Require="chung Pod, namespace" id="OB3D3xZtRhoNLVHTy5Gi-12">
+          <mxCell edge="1" parent="1" source="OB3D3xZtRhoNLVHTy5Gi-7" style="endArrow=classicThin;html=1;rounded=0;startArrow=none;startFill=0;endFill=1;" target="OB3D3xZtRhoNLVHTy5Gi-9">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="610" y="170" as="sourcePoint" />
+              <mxPoint x="949" y="310" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <mxCell id="OB3D3xZtRhoNLVHTy5Gi-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;font-size: 14px; white-space: pre;&quot;&gt;POSSIBLE_SITE_AEROSPIKE_CLUSTER_GROUP_DOWN &lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="400" x="-370" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="OB3D3xZtRhoNLVHTy5Gi-21" edge="1" parent="1" source="OB3D3xZtRhoNLVHTy5Gi-19" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="OB3D3xZtRhoNLVHTy5Gi-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OB3D3xZtRhoNLVHTy5Gi-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="ALL_VPROXY_VIM_DOWN" vertex="1">
+          <mxGeometry height="60" width="160" x="240" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="OB3D3xZtRhoNLVHTy5Gi-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="CNF_DATA_NEED_ISOLATE (VOICE, SMS)" vertex="1">
+          <mxGeometry height="60" width="190" x="-775" y="-340" as="geometry" />
+        </mxCell>
+        <mxCell id="OB3D3xZtRhoNLVHTy5Gi-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="SPINE_FABRIC_DOWN_OVER_HALF" vertex="1">
+          <mxGeometry height="60" width="240" x="190" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="OB3D3xZtRhoNLVHTy5Gi-25" edge="1" parent="1" source="OB3D3xZtRhoNLVHTy5Gi-24" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="OB3D3xZtRhoNLVHTy5Gi-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="328" y="510" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OB3D3xZtRhoNLVHTy5Gi-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="BGW_FABRIC_DOWN_OVER_HALF" vertex="1">
+          <mxGeometry height="60" width="240" x="180" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="OB3D3xZtRhoNLVHTy5Gi-38" edge="1" parent="1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-660" y="360" />
+            </Array>
+            <mxPoint x="-639.9976247030879" y="409.9999999999999" as="sourcePoint" />
+            <mxPoint x="-639.9976247030879" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OB3D3xZtRhoNLVHTy5Gi-28" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="NODE_NETWORK_INTERFACE_DOWN " vertex="1">
+          <mxGeometry height="60" width="280" x="-765" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="OB3D3xZtRhoNLVHTy5Gi-35" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="PORT_DOWN" vertex="1">
+          <mxGeometry height="60" width="130" x="-690" y="250" as="geometry" />
+        </mxCell>
+        <object label="" Cause="PORT_DOWN ở switch có thể dẫn tới NODE_NETWORK_INTERFACE_DOWN trên node kết nối port đó" Require="ifDescr ở PORT_DOWN giống với device ở NOTE_NETWORK_INTERFACE_DOWN" id="OB3D3xZtRhoNLVHTy5Gi-37">
+          <mxCell edge="1" parent="1" source="OB3D3xZtRhoNLVHTy5Gi-35" style="endArrow=classicThin;html=1;rounded=0;startArrow=none;startFill=0;endFill=1;" target="OB3D3xZtRhoNLVHTy5Gi-28">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="-600" y="360" />
+              </Array>
+              <mxPoint x="-166" y="290" as="sourcePoint" />
+              <mxPoint x="-430" y="500" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <mxCell id="OB3D3xZtRhoNLVHTy5Gi-39" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot; style=&quot;color: light-dark(rgb(0, 0, 0), rgb(145, 93, 71));&quot;&gt;&lt;span style=&quot;font-size: 14px; white-space: pre;&quot;&gt;ALL_CNF_DATA_SITE_DOWN&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot; style=&quot;color: light-dark(rgb(0, 0, 0), rgb(145, 93, 71));&quot;&gt;&lt;span style=&quot;font-size: 14px; white-space: pre;&quot;&gt;(VOICE, SMS)&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="240" x="-800" y="-210" as="geometry" />
+        </mxCell>
+        <mxCell id="OB3D3xZtRhoNLVHTy5Gi-41" edge="1" parent="1" source="OB3D3xZtRhoNLVHTy5Gi-40" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="OB3D3xZtRhoNLVHTy5Gi-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OB3D3xZtRhoNLVHTy5Gi-40" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="AEROSPIKE_XDR_NODES_UNDER_THRESHOLD" vertex="1">
+          <mxGeometry height="60" width="310" x="-20" y="-320" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
