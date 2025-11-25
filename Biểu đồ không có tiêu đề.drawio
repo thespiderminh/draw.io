@@ -1,112 +1,44 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="29.1.0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="29.1.1">
   <diagram name="Trang-1" id="5XT9ndboUOtNzIZEpKwl">
-    <mxGraphModel dx="3259" dy="1605" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6153" dy="3750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="77dFUPPYDwlAky0k0clW-33" edge="1" parent="1" source="77dFUPPYDwlAky0k0clW-8" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="77dFUPPYDwlAky0k0clW-32">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-820" y="-390" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="77dFUPPYDwlAky0k0clW-29" edge="1" parent="1" source="77dFUPPYDwlAky0k0clW-8" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="77dFUPPYDwlAky0k0clW-28">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-1080" y="-140" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <object label="" Cause="" Require="subObjectInstanceName là cgw-volte-rx" id="77dFUPPYDwlAky0k0clW-24">
-          <mxCell edge="1" parent="1" source="77dFUPPYDwlAky0k0clW-8" style="endArrow=classicThin;html=1;rounded=0;startArrow=none;startFill=0;endFill=1;" target="77dFUPPYDwlAky0k0clW-25">
-            <mxGeometry relative="1" as="geometry">
-              <mxPoint x="-984" y="-270" as="sourcePoint" />
-              <mxPoint x="-669" y="-90" as="targetPoint" />
-            </mxGeometry>
-          </mxCell>
-        </object>
-        <object label="" Cause="" Require="subObjectInstanceName là cgw-volte-rx" id="77dFUPPYDwlAky0k0clW-21">
-          <mxCell edge="1" parent="1" source="77dFUPPYDwlAky0k0clW-8" style="endArrow=classicThin;html=1;rounded=0;startArrow=none;startFill=0;endFill=1;" target="77dFUPPYDwlAky0k0clW-20">
-            <mxGeometry relative="1" as="geometry">
-              <mxPoint x="-1190" y="-290" as="sourcePoint" />
-              <mxPoint x="-879" y="-220" as="targetPoint" />
-            </mxGeometry>
-          </mxCell>
-        </object>
-        <object label="" Cause="" Require="subObjectInstanceName là cgw-data-gy" id="77dFUPPYDwlAky0k0clW-19">
-          <mxCell edge="1" parent="1" source="77dFUPPYDwlAky0k0clW-8" style="endArrow=classicThin;html=1;rounded=0;startArrow=none;startFill=0;endFill=1;" target="77dFUPPYDwlAky0k0clW-18">
-            <mxGeometry relative="1" as="geometry">
-              <mxPoint x="-1383" y="-180" as="sourcePoint" />
-              <mxPoint x="-1240" y="-109" as="targetPoint" />
-            </mxGeometry>
-          </mxCell>
-        </object>
-        <mxCell id="77dFUPPYDwlAky0k0clW-27" edge="1" parent="1" source="77dFUPPYDwlAky0k0clW-8" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="77dFUPPYDwlAky0k0clW-26">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <object label="" Cause="" Require="subObjectInstanceName là cgw-data-gy" id="77dFUPPYDwlAky0k0clW-10">
-          <mxCell edge="1" parent="1" source="77dFUPPYDwlAky0k0clW-8" style="endArrow=classicThin;html=1;rounded=0;startArrow=none;startFill=0;endFill=1;" target="OB3D3xZtRhoNLVHTy5Gi-20">
-            <mxGeometry relative="1" as="geometry">
-              <mxPoint x="-947" y="-370" as="sourcePoint" />
-              <mxPoint x="-1120" y="-329" as="targetPoint" />
-            </mxGeometry>
-          </mxCell>
-        </object>
-        <object label="" Cause="" Require="subObjectInstanceName là cgw-volte-rx" id="77dFUPPYDwlAky0k0clW-13">
-          <mxCell edge="1" parent="1" source="77dFUPPYDwlAky0k0clW-8" style="endArrow=classicThin;html=1;rounded=0;startArrow=none;startFill=0;endFill=1;" target="77dFUPPYDwlAky0k0clW-12">
-            <mxGeometry relative="1" as="geometry">
-              <mxPoint x="-920" y="-410" as="sourcePoint" />
-              <mxPoint x="-889" y="-330" as="targetPoint" />
-            </mxGeometry>
-          </mxCell>
-        </object>
-        <object label="" Cause="" Require="subObjectInstanceName là recurring-offline" id="77dFUPPYDwlAky0k0clW-15">
-          <mxCell edge="1" parent="1" source="77dFUPPYDwlAky0k0clW-8" style="endArrow=classicThin;html=1;rounded=0;startArrow=none;startFill=0;endFill=1;" target="77dFUPPYDwlAky0k0clW-14">
-            <mxGeometry relative="1" as="geometry">
-              <mxPoint x="-1113" y="-420" as="sourcePoint" />
-              <mxPoint x="-1139" y="-330" as="targetPoint" />
-            </mxGeometry>
-          </mxCell>
-        </object>
-        <object label="" Cause="" Require="subObjectInstanceName là recurring-offline" id="77dFUPPYDwlAky0k0clW-17">
-          <mxCell edge="1" parent="1" source="77dFUPPYDwlAky0k0clW-8" style="endArrow=classicThin;html=1;rounded=0;startArrow=none;startFill=0;endFill=1;" target="77dFUPPYDwlAky0k0clW-16">
-            <mxGeometry relative="1" as="geometry">
-              <mxPoint x="-830" y="-450" as="sourcePoint" />
-              <mxPoint x="-832" y="-380" as="targetPoint" />
-            </mxGeometry>
-          </mxCell>
-        </object>
         <mxCell id="v63EH9vQ4W_Pz9Ko_zXj-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;AEROSPIKE_CLIENT_CONNECTIONS_OPENED_OVER_THRESHOLD&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="410" x="1010" y="-140" as="geometry" />
+          <mxGeometry height="60" width="410" x="1050" y="-520" as="geometry" />
         </mxCell>
         <object label="" Cause="AER_MIN_CLUSTER_SIZE - Aerospike cluster mất đủ số node cần tối thiểu để hoạt động ổn định, dẫn đến sau đó lượng connection mở đồng loạt, nên vượt ngưỡng" Require="clusterName của AEROSPIKE_UNHEALTHY giống với objectInstanceName của AEROSPIKE_CLIENT_CONNECTIONS_OPENED_OVER_THRESHOLD" id="v63EH9vQ4W_Pz9Ko_zXj-2">
-          <mxCell edge="1" parent="1" source="v63EH9vQ4W_Pz9Ko_zXj-5" style="endArrow=classicThin;html=1;rounded=0;startArrow=none;startFill=0;endFill=1;" target="v63EH9vQ4W_Pz9Ko_zXj-1">
+          <mxCell edge="1" parent="1" source="v63EH9vQ4W_Pz9Ko_zXj-5" style="endArrow=classicThin;html=1;rounded=0;startArrow=none;startFill=0;endFill=1;fillColor=#f8cecc;strokeColor=#000000;" target="v63EH9vQ4W_Pz9Ko_zXj-1">
             <mxGeometry relative="1" as="geometry">
               <mxPoint x="1176" y="-70" as="sourcePoint" />
               <mxPoint x="1336" y="-70" as="targetPoint" />
             </mxGeometry>
           </mxCell>
         </object>
-        <mxCell id="OB3D3xZtRhoNLVHTy5Gi-18" edge="1" parent="1" source="v63EH9vQ4W_Pz9Ko_zXj-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="OB3D3xZtRhoNLVHTy5Gi-17">
+        <mxCell id="OB3D3xZtRhoNLVHTy5Gi-18" edge="1" parent="1" source="v63EH9vQ4W_Pz9Ko_zXj-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f8cecc;strokeColor=light-dark(#000000, #d7817e);" target="OB3D3xZtRhoNLVHTy5Gi-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <object label="AEROSPIKE_UNHEALTHY&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;span data-start=&quot;6025&quot; data-end=&quot;6049&quot;&gt;(AEROSPIKE_LOST_ERROR)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" Interval="Instance" id="v63EH9vQ4W_Pz9Ko_zXj-5">
+        <mxCell id="eh6bjejBoHSBbb7l4hTo-14" edge="1" parent="1" source="v63EH9vQ4W_Pz9Ko_zXj-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f8cecc;strokeColor=#b85450;" target="eh6bjejBoHSBbb7l4hTo-13" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <object label="AEROSPIKE_UNHEALTHY" Interval="Instance" id="v63EH9vQ4W_Pz9Ko_zXj-5">
           <mxCell parent="1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1">
-            <mxGeometry height="80" width="190" x="850" y="-280" as="geometry" />
+            <mxGeometry height="80" width="190" x="890" y="-270" as="geometry" />
           </mxCell>
         </object>
-        <object label="" Cause="Nếu VNFC có dạng &quot;ABM-...-...-...&quot; down, thì một VNFC &quot;ABM-...-...&quot;, cái mà theo dõi Aerospike chứa ABM đó, sẽ báo lỗi AER_MIN_CLUSTER_SIZE" id="77dFUPPYDwlAky0k0clW-1">
-          <mxCell edge="1" parent="1" source="OB3D3xZtRhoNLVHTy5Gi-7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="v63EH9vQ4W_Pz9Ko_zXj-5">
-            <mxGeometry relative="1" as="geometry" />
-          </mxCell>
-        </object>
+        <mxCell id="eh6bjejBoHSBbb7l4hTo-12" edge="1" parent="1" source="OB3D3xZtRhoNLVHTy5Gi-7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="eh6bjejBoHSBbb7l4hTo-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <object label="VNFC_DOWN" Interval="Instance" id="OB3D3xZtRhoNLVHTy5Gi-7">
           <mxCell parent="1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1">
-            <mxGeometry height="60" width="160" x="500" y="-440" as="geometry" />
+            <mxGeometry height="60" width="160" x="110" y="-440" as="geometry" />
           </mxCell>
         </object>
         <mxCell id="77dFUPPYDwlAky0k0clW-3" edge="1" parent="1" source="OB3D3xZtRhoNLVHTy5Gi-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="77dFUPPYDwlAky0k0clW-2" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OB3D3xZtRhoNLVHTy5Gi-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;font-size: 14px; white-space: pre;&quot;&gt;AEROSPIKE_XDR_LAG_OVER_THRESHOLD&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="300" x="60" y="-310" as="geometry" />
+          <mxGeometry height="60" width="300" y="-300" as="geometry" />
         </mxCell>
         <object label="" Cause="Nếu VNFC dạng AEROCLUSTER bị chết, khiến Node đó không thể gửi/nhận dữ liệu XDR, khiến bị dồn lại" Require="chung Pod, namespace" id="OB3D3xZtRhoNLVHTy5Gi-12">
           <mxCell edge="1" parent="1" source="OB3D3xZtRhoNLVHTy5Gi-7" style="endArrow=classicThin;html=1;rounded=0;startArrow=none;startFill=0;endFill=1;" target="OB3D3xZtRhoNLVHTy5Gi-9">
@@ -116,102 +48,52 @@
             </mxGeometry>
           </mxCell>
         </object>
-        <mxCell id="OB3D3xZtRhoNLVHTy5Gi-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;font-size: 14px; white-space: pre;&quot;&gt;POSSIBLE_SITE_AEROSPIKE_CLUSTER_GROUP_DOWN &lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="400" x="970" y="-390" as="geometry" />
+        <mxCell id="OB3D3xZtRhoNLVHTy5Gi-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;font-size: 14px; white-space: pre;&quot;&gt;POSSIBLE_SITE_AEROSPIKE_CLUSTER_GROUP_DOWN&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="400" x="1160" y="-380" as="geometry" />
         </mxCell>
         <mxCell id="OB3D3xZtRhoNLVHTy5Gi-21" edge="1" parent="1" source="OB3D3xZtRhoNLVHTy5Gi-19" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="OB3D3xZtRhoNLVHTy5Gi-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OB3D3xZtRhoNLVHTy5Gi-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="ALL_VPROXY_VIM_DOWN" vertex="1">
-          <mxGeometry height="60" width="160" x="80" y="-20" as="geometry" />
-        </mxCell>
-        <mxCell id="OB3D3xZtRhoNLVHTy5Gi-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="CNF_DATA_NEED_ISOLATE&amp;nbsp;&lt;div&gt;cgw-data-gy&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="190" x="-1530" y="-360" as="geometry" />
+          <mxGeometry height="60" width="160" x="-120" y="-40" as="geometry" />
         </mxCell>
         <mxCell id="OB3D3xZtRhoNLVHTy5Gi-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="SPINE_FABRIC_DOWN_OVER_HALF" vertex="1">
-          <mxGeometry height="60" width="240" x="30" y="130" as="geometry" />
+          <mxGeometry height="60" width="240" x="-170" y="110" as="geometry" />
         </mxCell>
         <mxCell id="OB3D3xZtRhoNLVHTy5Gi-25" edge="1" parent="1" source="OB3D3xZtRhoNLVHTy5Gi-24" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="OB3D3xZtRhoNLVHTy5Gi-26">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="168" y="180" as="sourcePoint" />
+            <mxPoint x="-32" y="160" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="OB3D3xZtRhoNLVHTy5Gi-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="BGW_FABRIC_DOWN_OVER_HALF" vertex="1">
-          <mxGeometry height="60" width="240" x="20" y="270" as="geometry" />
+          <mxGeometry height="60" width="240" x="-180" y="250" as="geometry" />
         </mxCell>
         <object label="PORT_DOWN" Interval="1m" id="OB3D3xZtRhoNLVHTy5Gi-35">
           <mxCell parent="1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1">
-            <mxGeometry height="60" width="130" x="770" y="-740" as="geometry" />
+            <mxGeometry height="60" width="130" x="715" y="-810" as="geometry" />
           </mxCell>
         </object>
         <object label="" Cause="&#xa;PORT_DOWN ở switch có thể dẫn tới NODE_NETWORK_INTERFACE_DOWN trên node kết nối port đó" Require="&#xa;ifDescr ở PORT_DOWN giống với device ở NOTE_NETWORK_INTERFACE_DOWN, chung nodeName" id="OB3D3xZtRhoNLVHTy5Gi-37">
-          <mxCell edge="1" parent="1" source="OB3D3xZtRhoNLVHTy5Gi-35" style="endArrow=classicThin;html=1;rounded=0;startArrow=none;startFill=0;endFill=1;" target="77dFUPPYDwlAky0k0clW-38">
+          <mxCell edge="1" parent="1" source="OB3D3xZtRhoNLVHTy5Gi-35" style="endArrow=classicThin;html=1;rounded=0;startArrow=none;startFill=0;endFill=1;fillColor=#f8cecc;strokeColor=#b85450;" target="77dFUPPYDwlAky0k0clW-38">
             <mxGeometry relative="1" as="geometry">
-              <mxPoint x="1049" y="-800" as="sourcePoint" />
-              <mxPoint x="785" y="-590" as="targetPoint" />
+              <mxPoint x="994" y="-870" as="sourcePoint" />
+              <mxPoint x="730" y="-660" as="targetPoint" />
             </mxGeometry>
           </mxCell>
         </object>
-        <mxCell id="OB3D3xZtRhoNLVHTy5Gi-41" edge="1" parent="1" source="OB3D3xZtRhoNLVHTy5Gi-40" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="OB3D3xZtRhoNLVHTy5Gi-9">
+        <mxCell id="eh6bjejBoHSBbb7l4hTo-3" edge="1" parent="1" source="77dFUPPYDwlAky0k0clW-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="eh6bjejBoHSBbb7l4hTo-2" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OB3D3xZtRhoNLVHTy5Gi-40" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="AEROSPIKE_XDR_NODES_UNDER_THRESHOLD" vertex="1">
-          <mxGeometry height="60" width="310" x="-20" y="-430" as="geometry" />
-        </mxCell>
         <mxCell id="77dFUPPYDwlAky0k0clW-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; white-space: pre; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;AEROSPIKE_CLUSTER_SIZE_UNDER_THRESHOLD&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="360" y="-180" as="geometry" />
+          <mxGeometry height="60" width="360" x="70" y="-190" as="geometry" />
         </mxCell>
-        <mxCell id="77dFUPPYDwlAky0k0clW-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="VDU_ASYNCHRONIZE" vertex="1">
-          <mxGeometry height="60" width="160" x="-525" y="40" as="geometry" />
-        </mxCell>
-        <object label="" Cause="Nếu VNFC dạng CGW_DATA-GX bị chết" Require="" id="77dFUPPYDwlAky0k0clW-6">
-          <mxCell edge="1" parent="1" source="77dFUPPYDwlAky0k0clW-34" style="endArrow=classicThin;html=1;rounded=0;startArrow=none;startFill=0;endFill=1;" target="77dFUPPYDwlAky0k0clW-4">
-            <mxGeometry relative="1" as="geometry">
-              <mxPoint x="-445" y="-40" as="sourcePoint" />
-              <mxPoint x="-455" y="21" as="targetPoint" />
-            </mxGeometry>
-          </mxCell>
-        </object>
-        <mxCell id="77dFUPPYDwlAky0k0clW-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 14px; text-align: left;&quot;&gt;VDU_SUCCESS_RATE_UNDER_THRESHOLD&lt;/span&gt;" vertex="1">
-          <mxGeometry height="60" width="320" x="-1350" y="-460" as="geometry" />
-        </mxCell>
-        <mxCell id="77dFUPPYDwlAky0k0clW-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="CNF_VOICE_NEED_ISOLATE&amp;nbsp;&lt;div&gt;cgw-volte-rx&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="190" x="-1320" y="-360" as="geometry" />
-        </mxCell>
-        <mxCell id="77dFUPPYDwlAky0k0clW-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="CNF_OFFLINE_NEED_ISOLATE&amp;nbsp;&lt;div&gt;recurring-offline -&amp;gt;&amp;nbsp;event-maker&lt;/div&gt;&lt;div&gt;cgw-pro-mobile&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="190" x="-1110" y="-360" as="geometry" />
-        </mxCell>
-        <mxCell id="77dFUPPYDwlAky0k0clW-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="CNF_SMS_NEED_ISOLATE&amp;nbsp;&lt;div&gt;cgw-sms&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="190" x="-890" y="-360" as="geometry" />
-        </mxCell>
-        <mxCell id="77dFUPPYDwlAky0k0clW-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;ALL_CNF_DATA_SITE_DOWN&lt;/div&gt;&lt;div&gt;2 cgw-data-gy&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="190" x="-1750" y="-260" as="geometry" />
-        </mxCell>
-        <mxCell id="77dFUPPYDwlAky0k0clW-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="ALL_CNF_VOICE_SITE_DOWN&lt;div&gt;2 cgw-volte-rx&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="190" x="-1530" y="-260" as="geometry" />
-        </mxCell>
-        <mxCell id="77dFUPPYDwlAky0k0clW-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="ALL_CNF_SCU_SITE_DOWN&lt;div&gt;2 scp&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="190" x="-1320" y="-260" as="geometry" />
-        </mxCell>
-        <mxCell id="77dFUPPYDwlAky0k0clW-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="ALL_CNF_OFFLINE_SITE_DOWN&lt;div&gt;&amp;nbsp;2 recurring-offline&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="190" x="-1100" y="-260" as="geometry" />
-        </mxCell>
-        <mxCell id="77dFUPPYDwlAky0k0clW-28" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;ALL_CNF_SMS_SITE_DOWN&lt;/div&gt;&lt;div&gt;2&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;cgw-sms&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="190" x="-880" y="-260" as="geometry" />
-        </mxCell>
-        <mxCell id="77dFUPPYDwlAky0k0clW-32" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;ALL_CNF_PRO_SITE_DOWN&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;2&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;cgw-pro-mobile&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="190" x="-660" y="-260" as="geometry" />
-        </mxCell>
-        <mxCell id="77dFUPPYDwlAky0k0clW-34" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="VDU_UNHEALTHY" vertex="1">
-          <mxGeometry height="60" width="160" x="-525" y="-150" as="geometry" />
-        </mxCell>
-        <object label="CONNECTION_EXCEPTION" Interval="Instance" id="77dFUPPYDwlAky0k0clW-35">
+        <object label="CONNECTION_EXCEPTION&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;(AEROSPIKE_LOST_ERROR)&lt;/div&gt;" Interval="Instance" id="77dFUPPYDwlAky0k0clW-35">
           <mxCell parent="1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1">
-            <mxGeometry height="60" width="190" x="750" y="-500" as="geometry" />
+            <mxGeometry height="60" width="190" x="720" y="-440" as="geometry" />
           </mxCell>
         </object>
         <object label="" Cause="Pod báo CONNECTION_EXCEPTION@@AEROSPIKE_LOST_ERROR, nghĩa là mất 1 cụm CNF aerospike" Require="Chung subObjectInstanceName" id="77dFUPPYDwlAky0k0clW-37">
-          <mxCell edge="1" parent="1" source="77dFUPPYDwlAky0k0clW-35" style="endArrow=classicThin;html=1;rounded=0;startArrow=none;startFill=0;endFill=1;" target="v63EH9vQ4W_Pz9Ko_zXj-5">
+          <mxCell edge="1" parent="1" source="77dFUPPYDwlAky0k0clW-35" style="endArrow=classicThin;html=1;rounded=0;startArrow=none;startFill=0;endFill=1;fillColor=#f8cecc;strokeColor=#b85450;" target="v63EH9vQ4W_Pz9Ko_zXj-5">
             <mxGeometry relative="1" as="geometry">
               <mxPoint x="799.9985714285715" y="-630" as="sourcePoint" />
               <mxPoint x="907.1414285714284" y="-270" as="targetPoint" />
@@ -220,17 +102,155 @@
         </object>
         <object label="NODE_NETWORK_INTERFACE_DOWN" Interval="1m" id="77dFUPPYDwlAky0k0clW-38">
           <mxCell parent="1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1">
-            <mxGeometry height="60" width="260" x="715" y="-620" as="geometry" />
+            <mxGeometry height="60" width="260" x="660" y="-690" as="geometry" />
           </mxCell>
         </object>
-        <object label="" Cause="Pod báo CONNECTION_EXCEPTION@@AEROSPIKE_LOST_ERROR, nghĩa là mất 1 cụm CNF aerospike" Require="Chung subObjectInstanceName" id="77dFUPPYDwlAky0k0clW-39">
-          <mxCell edge="1" parent="1" source="77dFUPPYDwlAky0k0clW-38" style="endArrow=classicThin;html=1;rounded=0;startArrow=none;startFill=0;endFill=1;" target="77dFUPPYDwlAky0k0clW-35">
+        <mxCell id="eh6bjejBoHSBbb7l4hTo-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; white-space: pre; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;AEROSPIKE_XDR_RETRY_NO_NODE_OVER_THRESHOLD&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="360" x="160" y="-70" as="geometry" />
+        </mxCell>
+        <mxCell id="eh6bjejBoHSBbb7l4hTo-4" edge="1" parent="1" source="eh6bjejBoHSBbb7l4hTo-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="eh6bjejBoHSBbb7l4hTo-5" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="505" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eh6bjejBoHSBbb7l4hTo-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; white-space: pre; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;AEROSPIKE_MEMORY_FREE_PCT_UNDER_THRESHOLD&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="360" x="200" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="eh6bjejBoHSBbb7l4hTo-6" edge="1" parent="1" source="eh6bjejBoHSBbb7l4hTo-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="eh6bjejBoHSBbb7l4hTo-7" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="505" y="240" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eh6bjejBoHSBbb7l4hTo-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; white-space: pre; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;AEROSPIKE_HWM_BREACHED_OVER_THRESHOLD&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="360" x="260" y="200" as="geometry" />
+        </mxCell>
+        <object label="TPS_UNDER_THRESHOLD" Interval="Instance" id="eh6bjejBoHSBbb7l4hTo-9">
+          <mxCell parent="1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1">
+            <mxGeometry height="80" width="190" x="620" y="-280" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="VDU_UNHEALTHY" Interval="Instance" id="eh6bjejBoHSBbb7l4hTo-11">
+          <mxCell parent="1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1">
+            <mxGeometry height="60" width="160" x="360" y="-370" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="RESCUE_CHANGE_STATE" Interval="Instance" id="eh6bjejBoHSBbb7l4hTo-13">
+          <mxCell parent="1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1">
+            <mxGeometry height="80" width="190" x="1030" y="-60" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="eh6bjejBoHSBbb7l4hTo-15" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="300" width="1280" x="-1750" y="-500" as="geometry" />
+        </mxCell>
+        <mxCell id="77dFUPPYDwlAky0k0clW-33" edge="1" parent="eh6bjejBoHSBbb7l4hTo-15" source="77dFUPPYDwlAky0k0clW-8" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="77dFUPPYDwlAky0k0clW-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="930" y="110" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="77dFUPPYDwlAky0k0clW-29" edge="1" parent="eh6bjejBoHSBbb7l4hTo-15" source="77dFUPPYDwlAky0k0clW-8" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="77dFUPPYDwlAky0k0clW-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="360" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <object label="" Cause="" Require="subObjectInstanceName là cgw-volte-rx" id="77dFUPPYDwlAky0k0clW-24">
+          <mxCell edge="1" parent="eh6bjejBoHSBbb7l4hTo-15" source="77dFUPPYDwlAky0k0clW-8" style="endArrow=classicThin;html=1;rounded=0;startArrow=none;startFill=0;endFill=1;" target="77dFUPPYDwlAky0k0clW-25">
             <mxGeometry relative="1" as="geometry">
-              <mxPoint x="915" y="-780" as="sourcePoint" />
-              <mxPoint x="1052" y="-610" as="targetPoint" />
+              <mxPoint x="766" y="230" as="sourcePoint" />
+              <mxPoint x="1081" y="410" as="targetPoint" />
             </mxGeometry>
           </mxCell>
         </object>
+        <object label="" Cause="" Require="subObjectInstanceName là cgw-volte-rx" id="77dFUPPYDwlAky0k0clW-21">
+          <mxCell edge="1" parent="eh6bjejBoHSBbb7l4hTo-15" source="77dFUPPYDwlAky0k0clW-8" style="endArrow=classicThin;html=1;rounded=0;startArrow=none;startFill=0;endFill=1;" target="77dFUPPYDwlAky0k0clW-20">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="560" y="210" as="sourcePoint" />
+              <mxPoint x="871" y="280" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" Cause="" Require="subObjectInstanceName là cgw-data-gy" id="77dFUPPYDwlAky0k0clW-19">
+          <mxCell edge="1" parent="eh6bjejBoHSBbb7l4hTo-15" source="77dFUPPYDwlAky0k0clW-8" style="endArrow=classicThin;html=1;rounded=0;startArrow=none;startFill=0;endFill=1;" target="77dFUPPYDwlAky0k0clW-18">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="367" y="320" as="sourcePoint" />
+              <mxPoint x="510" y="391" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <mxCell id="77dFUPPYDwlAky0k0clW-27" edge="1" parent="eh6bjejBoHSBbb7l4hTo-15" source="77dFUPPYDwlAky0k0clW-8" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="77dFUPPYDwlAky0k0clW-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <object label="" Cause="" Require="subObjectInstanceName là cgw-data-gy" id="77dFUPPYDwlAky0k0clW-10">
+          <mxCell edge="1" parent="eh6bjejBoHSBbb7l4hTo-15" source="77dFUPPYDwlAky0k0clW-8" style="endArrow=classicThin;html=1;rounded=0;startArrow=none;startFill=0;endFill=1;" target="OB3D3xZtRhoNLVHTy5Gi-20">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="803" y="130" as="sourcePoint" />
+              <mxPoint x="630" y="171" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" Cause="" Require="subObjectInstanceName là cgw-volte-rx" id="77dFUPPYDwlAky0k0clW-13">
+          <mxCell edge="1" parent="eh6bjejBoHSBbb7l4hTo-15" source="77dFUPPYDwlAky0k0clW-8" style="endArrow=classicThin;html=1;rounded=0;startArrow=none;startFill=0;endFill=1;" target="77dFUPPYDwlAky0k0clW-12">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="830" y="90" as="sourcePoint" />
+              <mxPoint x="861" y="170" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" Cause="" Require="subObjectInstanceName là recurring-offline" id="77dFUPPYDwlAky0k0clW-15">
+          <mxCell edge="1" parent="eh6bjejBoHSBbb7l4hTo-15" source="77dFUPPYDwlAky0k0clW-8" style="endArrow=classicThin;html=1;rounded=0;startArrow=none;startFill=0;endFill=1;" target="77dFUPPYDwlAky0k0clW-14">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="637" y="80" as="sourcePoint" />
+              <mxPoint x="611" y="170" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" Cause="" Require="subObjectInstanceName là recurring-offline" id="77dFUPPYDwlAky0k0clW-17">
+          <mxCell edge="1" parent="eh6bjejBoHSBbb7l4hTo-15" source="77dFUPPYDwlAky0k0clW-8" style="endArrow=classicThin;html=1;rounded=0;startArrow=none;startFill=0;endFill=1;" target="77dFUPPYDwlAky0k0clW-16">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="920" y="50" as="sourcePoint" />
+              <mxPoint x="918" y="120" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <mxCell id="OB3D3xZtRhoNLVHTy5Gi-20" parent="eh6bjejBoHSBbb7l4hTo-15" style="rounded=0;whiteSpace=wrap;html=1;" value="CNF_DATA_NEED_ISOLATE&amp;nbsp;&lt;div&gt;cgw-data-gy&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="190" x="220" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="77dFUPPYDwlAky0k0clW-8" parent="eh6bjejBoHSBbb7l4hTo-15" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 14px; text-align: left;&quot;&gt;VDU_SUCCESS_RATE_UNDER_THRESHOLD&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="320" x="420" as="geometry" />
+        </mxCell>
+        <mxCell id="77dFUPPYDwlAky0k0clW-12" parent="eh6bjejBoHSBbb7l4hTo-15" style="rounded=0;whiteSpace=wrap;html=1;" value="CNF_VOICE_NEED_ISOLATE&amp;nbsp;&lt;div&gt;cgw-volte-rx&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="190" x="430" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="77dFUPPYDwlAky0k0clW-14" parent="eh6bjejBoHSBbb7l4hTo-15" style="rounded=0;whiteSpace=wrap;html=1;" value="CNF_OFFLINE_NEED_ISOLATE&amp;nbsp;&lt;div&gt;recurring-offline -&amp;gt;&amp;nbsp;event-maker&lt;/div&gt;&lt;div&gt;cgw-pro-mobile&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="190" x="640" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="77dFUPPYDwlAky0k0clW-16" parent="eh6bjejBoHSBbb7l4hTo-15" style="rounded=0;whiteSpace=wrap;html=1;" value="CNF_SMS_NEED_ISOLATE&amp;nbsp;&lt;div&gt;cgw-sms&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="190" x="860" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="77dFUPPYDwlAky0k0clW-18" parent="eh6bjejBoHSBbb7l4hTo-15" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;ALL_CNF_DATA_SITE_DOWN&lt;/div&gt;&lt;div&gt;2 cgw-data-gy&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="190" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="77dFUPPYDwlAky0k0clW-20" parent="eh6bjejBoHSBbb7l4hTo-15" style="rounded=0;whiteSpace=wrap;html=1;" value="ALL_CNF_VOICE_SITE_DOWN&lt;div&gt;2 cgw-volte-rx&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="190" x="220" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="77dFUPPYDwlAky0k0clW-25" parent="eh6bjejBoHSBbb7l4hTo-15" style="rounded=0;whiteSpace=wrap;html=1;" value="ALL_CNF_SCU_SITE_DOWN&lt;div&gt;2 scp&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="190" x="430" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="77dFUPPYDwlAky0k0clW-26" parent="eh6bjejBoHSBbb7l4hTo-15" style="rounded=0;whiteSpace=wrap;html=1;" value="ALL_CNF_OFFLINE_SITE_DOWN&lt;div&gt;&amp;nbsp;2 recurring-offline&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="190" x="650" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="77dFUPPYDwlAky0k0clW-28" parent="eh6bjejBoHSBbb7l4hTo-15" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;ALL_CNF_SMS_SITE_DOWN&lt;/div&gt;&lt;div&gt;2&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;cgw-sms&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="190" x="870" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="77dFUPPYDwlAky0k0clW-32" parent="eh6bjejBoHSBbb7l4hTo-15" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;ALL_CNF_PRO_SITE_DOWN&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;2&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;cgw-pro-mobile&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="190" x="1090" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="eh6bjejBoHSBbb7l4hTo-16" edge="1" parent="1" source="v63EH9vQ4W_Pz9Ko_zXj-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f8cecc;strokeColor=#b85450;" target="v63EH9vQ4W_Pz9Ko_zXj-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1130" y="-230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
